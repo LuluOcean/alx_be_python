@@ -1,10 +1,10 @@
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
-operation = input("Choose the operation (+, -, *, /) ")
+operation = input("Choose the operation (+, -, *, /): ")
 
 if num2 == 0 and operation == "/":
-    print(f"Cannot divide by zero")
+    print(f"Cannot divide by {num2}")
 
 else:
     match operation:
