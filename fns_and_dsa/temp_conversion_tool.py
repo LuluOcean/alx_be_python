@@ -21,4 +21,4 @@ match temp_unit:
         result = convert_to_fahrenheit(temperature)
         print(result)
     case _ :
-        print(f"Invalid input: {temperature}, {temp_unit}")
+        print("Invalid temperature. Please enter a numeric value.")
